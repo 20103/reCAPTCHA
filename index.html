@@ -3,13 +3,16 @@
   <head>
     <title>reCAPTCHA demo: Simple page</title>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <style>
+      body{background-color:grey;}
+    </style>
   </head>
   <body>
     <form>
       <div class="g-recaptcha" data-sitekey="6LeX2pUaAAAAAE5op8orw39HC5KSMZPGSa3y0Kb9"></div>
       <br>
       <button OnClick="windows.location.reload();">refresh and keep current captcha response</button>
-      <h3>try opening this page on an incognito/guest browser or use a vpn/proxy/tor. It will affect the captcha in different ways!</h3>
+      <h3>try opening this page in a guest/incognito browser or use a vpn/proxy/tor. It will affect the captcha in different ways!</h3>
     </form>
   </body>
 </html>
